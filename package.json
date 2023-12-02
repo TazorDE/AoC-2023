@@ -5,5 +5,8 @@
   "dependencies": {
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "day1": "ts-node day1/index.ts"
   }
 }

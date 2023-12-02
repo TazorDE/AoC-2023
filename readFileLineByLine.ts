@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from 'fs';
 
 /// This function reads a file line by line and returns an array of strings
-export const readFileLineByLine = async (filePath: string) => {
+export const readFileLineByLine = (filePath: string) => {
     // check if given file exists
     if (!existsSync(filePath)) {
         throw new Error('File does not exist');
