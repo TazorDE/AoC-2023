@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.10.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
